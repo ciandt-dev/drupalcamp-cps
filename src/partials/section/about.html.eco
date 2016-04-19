@@ -1,4 +1,4 @@
-<h3 class="section-title"><%= @labels['about'] %></h2>
+<h3 class="section-title">A tradicional DrupalCamp, agora no interior paulista!</h2>
 
 <p itemprop="description">A comunidade Drupal brasileira está ansiosa pela próxima grande e tradicional DrupalCamp, que nos últimos anos foi sediada pela nossa famosa capital São Paulo. Meu caro Drupaleiro, sua espera está prestes a acabar! Neste ano de 2016, a cidade de Campinas do interior paulista, terá o orgulho de sediar este evento com o maior carinho e com o compromisso de manter a estrutura e qualidade de sempre!</p>
 

@@ -47,7 +47,7 @@ module.exports = {
 
     // Labels which you can translate to other languages
     labels: {
-      about: "A tradicional DrupalCamp, agora no interior paulista!",
+      about: "O Evento",
       location: "Localização",
       speakers: "Palestrantes",
       schedule: "Agenda",
