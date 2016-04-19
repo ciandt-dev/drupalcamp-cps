@@ -7,3 +7,7 @@
 </p>
 
 <div id="map-canvas" class="location-area" data-address="<%= @conf.address %>, <%= @conf.city %> - <%= @conf.state %>"></div>
+
+<h2 class="section-title margin-title">Como chegar</h2>
+
+<p>Teste</p>
