@@ -10,4 +10,10 @@
 
 <h2 class="section-title margin-title">Como chegar</h2>
 
-<p>Teste</p>
+<p>Para a comodidade de quem vem de fora da cidade, o local do evento fica localizado a <strong>apenas 4 minutos (a pé)</strong> do <strong>Terminal Rodiviário de Campinas</strong>. Confira no mapa abaixo como é fácil sair do terminal e chegar à DrupalCamp Campinas!</p>
+
+<p><strong>É de Campinas e vem de ônibus?</strong> Veja as linhas disponíveis através do seguinte endereço: <a href="http://www.emdec.com.br/ABusInf/" target="_blank">http://www.emdec.com.br/ABusInf/</a></p>
+
+<p><strong>Prefere vir de carro?</strong> Se quiser parar em algum estacionamento, temos o da própria faculdade, outro do Clube atrás do Campus e alguns outros nas imediações próximas. Se preferir, pode parar na rua também. Independente de onde parar seu carro, <strong>não nos responsabilizamos por ele ou por objetos deixados no interior do veículo. Os estacionamentos são pagos e os custos variam.</strong></a></p>
+
+ <div id="direction-canvas" class="location-area" data-startAddress="<%= @conf.busStationAddress %>"></div>

@@ -2,10 +2,13 @@
     'use strict';
 
     var conf = {};
+    var directionsService = new google.maps.DirectionsService();
+    var directionsDisplay = new google.maps.DirectionsRenderer();
 
     // Init functions, called on DOMContentLoaded event
     conf.init = function () {
         conf.map.init($('#map-canvas'));
+        conf.direction.init($('#direction-canvas'));
         conf.menu.init();
     };
 
@@ -14,6 +17,45 @@
     ***/
     conf.map = {
         marker: 'themes/yellow-swan/img/marker-default.png'
+    };
+
+    conf.direction = {};
+
+    conf.direction.init = function($element) {
+        conf.direction.element = $element;
+        conf.direction.geocoder = new google.maps.Geocoder();
+        conf.direction.latlng = new google.maps.LatLng(0, 0);        
+
+        conf.direction.options = {
+            zoom: 16,
+            center: conf.direction.latlng,
+            scrollwheel: false,
+            streetViewControl: true,
+            labels: true,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+
+        conf.direction.canvas = new google.maps.Map(conf.direction.element.get(0), conf.direction.options);
+        conf.direction.canvas.setCenter(conf.direction.latlng);
+        directionsDisplay.setMap(conf.direction.canvas);
+
+        conf.direction.createRoute();
+    };
+
+    conf.direction.createRoute = function() {
+        
+
+        var request = {
+          origin: "Terminal Rodoviário de Campinas, Campinas",
+          destination: conf.map.address,
+          travelMode: google.maps.TravelMode.WALKING
+        };
+        
+        directionsService.route(request, function(result, status) {
+        if (status == google.maps.DirectionsStatus.OK) {
+          directionsDisplay.setDirections(result);
+        }
+      });
     };
 
     // Google Maps configs
