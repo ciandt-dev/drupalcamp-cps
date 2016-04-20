@@ -38,6 +38,8 @@ module.exports = {
     sections: [
       'about',
       'location',
+      'arrival',
+      'afterhours',
       //'speakers',
       //'schedule',
       'sponsors',
@@ -49,9 +51,11 @@ module.exports = {
     labels: {
       about: "O Evento",
       location: "Localização",
+      arrival: "Como chegar",
+      afterhours: "Confraternização",
       speakers: "Palestrantes",
       schedule: "Agenda",
-      sponsors: "Patrocínio",
+      sponsors: "Realização",
       partners: "Apoio",
       contact: "Contato"
     },
