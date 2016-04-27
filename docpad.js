@@ -21,7 +21,7 @@ module.exports = {
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
-        text: "Interesso em participar!",
+        text: "Inscreva-se gratuitamente!",
         link: "http://goo.gl/forms/8Qz5NNVhOh"
     },
 
@@ -179,7 +179,7 @@ module.exports = {
     partners: [
       {
         name: "Metrocamp",
-        logo: "themes/yellow-swan/img/metrocamp_logo.jpg",
+        logo: "themes/yellow-swan/img/metrocamp_logo.png",
         url: "http://metrocamp.com.br"
       },
       {
