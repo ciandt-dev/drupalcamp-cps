@@ -22,7 +22,7 @@ module.exports = {
     // If you don't want this, just remove the callToAction property.
     callToAction: {
         text: "Inscreva-se gratuitamente!",
-        link: "http://goo.gl/forms/8Qz5NNVhOh"
+        link: "http://www.eventick.com.br/drupalcamp-cps"
     },
 
     // Site info
