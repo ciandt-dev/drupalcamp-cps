@@ -28,8 +28,8 @@ module.exports = {
     // Site info
     site: {
       theme: "yellow-swan",
-      url: "http://ciandt-dev.github.io/drupalcamp-cps/",
-      googleanalytics: ""
+      url: "http://campinas2016.drupalcamp.com.br",
+      googleanalytics: "UA-77098436-1"
     },
 
     // Active sections on the website
@@ -191,6 +191,11 @@ module.exports = {
         name: "Associação Drupal Brasil - ADB",
         logo: "themes/yellow-swan/img/adb_logo.png",
         url: "http://drupal.org.br"
+      },
+      {
+        name: "Chuva Inc.",
+        logo: "themes/yellow-swan/img/logo_chuva.png",
+        url: "https://chuva-inc.com.br/"
       }
     ],
 
