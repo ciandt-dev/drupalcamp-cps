@@ -1,4 +1,7 @@
- <h2 class="section-title">Confraternização</h2>
+ <h4 class="section-title">
+  <i class="fi-<%= @icons['afterhours'] %>"></i>
+  Confraternização
+ </h4>
 
  <p>Quem estiver disposto e puder permanecer na cidade durante a noite logo <strong>após o evento</strong>, está super convidado a se reunir com os organizadores do evento, pessoal da <strong>Associação Drupal Brasil</strong> e palestrantes presentes, para confraternizar em algum local a ser combinado no dia.</p>
 

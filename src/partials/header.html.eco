@@ -5,13 +5,20 @@
 <% end %>
 
 <!-- HEADER -->
-<header class="header">
+<header class="header" id="home">
   <div class="wrapper">
     <h1 class="logo-name">
-      <img src="http://image005.flaticon.com/28/png/256/34/34323.png" class="drupal-logo" />
-      <a class="logo-link" href="#" title="<%= @conf.name %>" itemprop="name"><%= @conf.name %></a>
+      <% if @conf.logo: %>
+        <img src="<%= @conf.logo %>" title="<%= @conf.name %>" alt="<%= @conf.name %>" class="logo-image" />
+
+      <% else: %>
+        <a class="logo-link" href="#" title="<%= @conf.name %>" itemprop="name"><%= @conf.name %></a>
+      <% end %>
     </h1>
-    <h2 class="tagline"><%= @conf.date %>, <%= @conf.venue %>, <%= @conf.city %></h2>
+
+    <h1 class="tagline">
+      <%= @conf.date %>, <%= @conf.venue %>, <%= @conf.city %>
+    </h1>
 
     <% if @conf.price || @callToAction: %>
       <div class="call-action-area">
@@ -20,7 +27,10 @@
         <% end %>
 
         <% if @callToAction: %>
-          <a href="<%= @callToAction.link %>" target="_blank" class="call-action-link" title="<%= @callToAction.text %>"><%= @callToAction.text %></a>
+          <a href="<%= @callToAction.link %>" target="_blank" class="call-action-link" title="<%= @callToAction.text %>">
+            <i class="fi-<%= @callToAction.icon %>"></i>
+            <%= @callToAction.text %>
+          </a>
         <% end %>
       </div>
     <% end %>

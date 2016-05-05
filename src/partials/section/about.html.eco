@@ -1,21 +1,43 @@
-<h3 class="section-title">A tradicional <strong>DrupalCamp</strong>, de volta ao interior paulista!</h2>
+<h4 class="section-title">
+  <i class="fi-<%= @icons['about'] %>"></i>
+  A tradicional <strong>DrupalCamp</strong>, de volta ao interior paulista!
+</h4>
 
 <p itemprop="description">A comunidade Drupal brasileira está ansiosa pela próxima grande e tradicional <strong>DrupalCamp</strong> do estado de São Paulo, que nos últimos anos foi sediada pela nossa famosa capital de mesmo nome. <strong>Drupaleiros e Drupaleiras</strong>, sua espera está prestes a acabar! Este ano <strong>Campinas</strong>, no interior paulista, terá o orgulho de sediar o evento novamente - depois de um hiato de 5 anos - com o maior carinho e com o compromisso de manter a estrutura e qualidade das edições anteriores! Afinal, Campinas foi pioneira ao sediar o encontro no estado de São Paulo, em 2008.
 
 <p>Este evento é feito pela comunidade para a comunidade, e você é peça chave para que esta <strong>DrupalCamp Campinas</strong> seja um sucesso! Seja como palestrante ou participante, contamos com você para prestigiar e contribuir com esta bela comunidade que cada vez mais cresce no Brasil.</p>
 
-<p align="center" class="bg-primary"><strong>KEYNOTE INTERNACIONAL DA ACQUIA CONFIRMADO!</strong></p>
+<p align="center" class="alert-box">
+  <i class="fi-checkbox"></i>
 
-<br />
-<h4>Não conheço Drupal. Devo ir no evento?</h4>
+  <strong>
+    KEYNOTE INTERNACIONAL DA ACQUIA CONFIRMADO!
+  </strong>
+</p>
 
-<p>Um dos maiores objetivos dos eventos regionais de Drupal (DrupalCamps) é a <strong>expansão da comunidade</strong>. Se você ainda conhece pouco ou nada de Drupal, mas tem interesse em saber mais, este é o momento certo! Teremos palestras voltadas ao <strong>público iniciante</strong>, para que você não se perca em momento algum. A <strong>oportunidade</strong> de conhecer pessoas que já trabalham com a tecnologia há algum tempo e ouvir o que elas acham também é imperdível.</p>
+<br/>
+<h4>
+  Não conheço Drupal. Devo ir no evento?
+</h4>
 
-<br />
-<h4>Submissão de Palestras</h4>
+<p>
+  Um dos maiores objetivos dos eventos regionais de Drupal (DrupalCamps) é a <strong>expansão da comunidade</strong>. Se você ainda conhece pouco ou nada de Drupal, mas tem interesse em saber mais, este é o momento certo! Teremos palestras voltadas ao <strong>público iniciante</strong>, para que você não se perca em momento algum. A <strong>oportunidade</strong> de conhecer pessoas que já trabalham com a tecnologia há algum tempo e ouvir o que elas acham também é imperdível.
+</p>
 
-<p>Tem interesse em palestrar no evento? Então estes são o momento e local certos para submeter a sua proposta!</p>
+<br/>
 
-<p align="center" class="bg-primary"><strong>ATENÇÃO: O PRAZO PARA SUBMISSÃO DE TRABALHOS ENCERRA DIA 25 DE MAIO!</strong></p>
+<h4>
+  Submissão de Palestras
+</h4>
+
+<p>
+  Tem interesse em palestrar no evento? Então estes são o momento e local certos para submeter a sua proposta!
+</p>
+
+<p align="center" class="alert-box">
+  <strong>
+    ATENÇÃO: O PRAZO PARA SUBMISSÃO DE TRABALHOS ENCERRA DIA 25 DE MAIO!
+  </strong>
+</p>
 
 <iframe src="https://docs.google.com/a/ciandt.com/forms/d/1Caa6myhyjXZvxuzwbCP1jtiiGXC4sduq9pWwsOv1FT0/viewform" style="border:0px #FFFFFF none;" name="apply-form" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="700px" width="100%"></iframe>

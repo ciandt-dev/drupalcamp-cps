@@ -1,4 +1,8 @@
-<h2 class="section-title"><%= @labels['sponsors'] %></h2>
+<h4 class="section-title">
+  <i class="fi-<%= @icons['sponsors'] %>"></i>
+  <%= @labels['sponsors'] %>
+</h4>
+
 <ul class="sponsors-list">
 
 <% for sponsor in @sponsors: %>

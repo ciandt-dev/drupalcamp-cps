@@ -1,9 +1,17 @@
 <!-- NAVIGATION -->
 <nav id="nav">
   <ul class="wrapper">
+    <li class="nav-item">
+      <a href="#home" title="Home" class="nav-link">
+        <i class="fi-<%= @icons['home'] %>"></i>Home
+      </a>
+    </li>
+
     <% for section in @sections : %>
       <li class="nav-item">
-        <a href="#<%= section %>" title="<%= @labels[section] %>" class="nav-link"><%= @labels[section] %></a>
+        <a href="#<%= section %>" title="<%= @labels[section] %>" class="nav-link">
+          <i class="fi-<%= @icons[section] %>"></i><%= @labels[section] %>
+        </a>
       </li>
     <% end %>
   </ul>
