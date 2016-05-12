@@ -9,25 +9,27 @@ module.exports = {
     conf: {
       name: "DrupalCamp Campinas 2016",
       description: "A tradicional DrupalCamp, agora no interior paulista!",
-      date: "25 de Junho",
+      date: "25 de junho",
       // If your event is free, just comment this line
       //price: "FREE",
       venue: "Faculdade Metrocamp",
       address: "Rua Doutor Salles de Oliveira, 1661 - Vila Industrial",
       city: "Campinas",
-      state: "São Paulo"
+      state: "São Paulo",
+      logo: "themes/drupalcamp-cps/img/logo.png",
     },
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
         text: "Inscreva-se gratuitamente!",
+        icon: "arrow-right",
         link: "http://www.eventick.com.br/drupalcamp-cps"
     },
 
     // Site info
     site: {
-      theme: "yellow-swan",
+      theme: "drupalcamp-cps",
       url: "http://campinas2016.drupalcamp.com.br",
       googleanalytics: "UA-77098436-1"
     },
@@ -60,6 +62,20 @@ module.exports = {
       contact: "Contato"
     },
 
+    // Foundation icon to use at titles: http://zurb.com/playground/foundation-icon-fonts-3
+    icons: {
+      home: "home",
+      about: "star",
+      location: "map",
+      arrival: "compass",
+      afterhours: "like",
+      speakers: "megaphone",
+      schedule: "calendar",
+      sponsors: "check",
+      partners: "torsos",
+      contact: "mail"
+    },
+
     // The entire schedule
     schedule: [
       {
@@ -68,7 +84,7 @@ module.exports = {
       },
       {
         name: "Linus Torvalds",
-        photo: "themes/yellow-swan/img/speaker.jpg",
+        photo: "themes/drupalcamp-cps/img/speaker.jpg",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
         company: "Linux Foundation",
         link: {
@@ -83,7 +99,7 @@ module.exports = {
       },
       {
         name: "Bill Gates",
-        photo: "themes/yellow-swan/img/speaker.jpg",
+        photo: "themes/drupalcamp-cps/img/speaker.jpg",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
         company: "Microsoft",
         link: {
@@ -102,7 +118,7 @@ module.exports = {
       },
       {
         name: "Chuck Norris",
-        photo: "themes/yellow-swan/img/speaker.jpg",
+        photo: "themes/drupalcamp-cps/img/speaker.jpg",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
         company: "Delta Command",
         link: {
@@ -117,7 +133,7 @@ module.exports = {
       },
       {
         name: "Steve Jobs",
-        photo: "themes/yellow-swan/img/speaker.jpg",
+        photo: "themes/drupalcamp-cps/img/speaker.jpg",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
         company: "Apple, Inc.",
         link: {
@@ -136,7 +152,7 @@ module.exports = {
       },
       {
         name: "Mark Zuckerberg",
-        photo: "themes/yellow-swan/img/speaker.jpg",
+        photo: "themes/drupalcamp-cps/img/speaker.jpg",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
         company: "Facebook",
         link: {
@@ -151,7 +167,7 @@ module.exports = {
       },
       {
         name: "Steve Wozniak",
-        photo: "themes/yellow-swan/img/speaker.jpg",
+        photo: "themes/drupalcamp-cps/img/speaker.jpg",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
         company: "Apple, Inc.",
         link: {
@@ -170,7 +186,7 @@ module.exports = {
     sponsors: [
       {
         name: "CI&T",
-        logo: "themes/yellow-swan/img/logo_ciandt.jpg",
+        logo: "themes/drupalcamp-cps/img/logo_ciandt.jpg",
         url: "http://ciandt.com"
       }
     ],
@@ -179,22 +195,22 @@ module.exports = {
     partners: [
       {
         name: "Metrocamp",
-        logo: "themes/yellow-swan/img/metrocamp_logo.png",
+        logo: "themes/drupalcamp-cps/img/metrocamp_logo.png",
         url: "http://metrocamp.com.br"
       },
       {
         name: "Acquia",
-        logo: "themes/yellow-swan/img/acquia_logo.png",
+        logo: "themes/drupalcamp-cps/img/acquia_logo.png",
         url: "http://acquia.com"
       },
       {
         name: "Associação Drupal Brasil - ADB",
-        logo: "themes/yellow-swan/img/adb_logo.png",
+        logo: "themes/drupalcamp-cps/img/adb_logo.png",
         url: "http://drupal.org.br"
       },
       {
         name: "Chuva Inc.",
-        logo: "themes/yellow-swan/img/logo_chuva.png",
+        logo: "themes/drupalcamp-cps/img/logo_chuva.png",
         url: "https://chuva-inc.com.br/"
       }
     ],

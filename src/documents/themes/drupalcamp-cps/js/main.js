@@ -16,7 +16,7 @@
         Google Maps implementation
     ***/
     conf.map = {
-        marker: 'themes/yellow-swan/img/marker-default.png'
+        marker: 'themes/drupalcamp-cps/img/marker-default.png'
     };
 
     conf.direction = {};
@@ -24,7 +24,7 @@
     conf.direction.init = function($element) {
         conf.direction.element = $element;
         conf.direction.geocoder = new google.maps.Geocoder();
-        conf.direction.latlng = new google.maps.LatLng(0, 0);        
+        conf.direction.latlng = new google.maps.LatLng(0, 0);
 
         conf.direction.options = {
             zoom: 16,
@@ -43,14 +43,14 @@
     };
 
     conf.direction.createRoute = function() {
-        
+
 
         var request = {
           origin: "Terminal Rodoviário de Campinas, Campinas",
           destination: conf.map.address,
           travelMode: google.maps.TravelMode.WALKING
         };
-        
+
         directionsService.route(request, function(result, status) {
         if (status == google.maps.DirectionsStatus.OK) {
           directionsDisplay.setDirections(result);
@@ -82,7 +82,7 @@
     };
 
     conf.map.createMarker = function () {
-        
+
         conf.map.address = conf.map.element.attr('data-address');
 
         conf.map.geocoder.geocode({ 'address': conf.map.address}, function (results, status) {
@@ -119,6 +119,9 @@
         conf.menu.menuItems.on('click.animateScroll', function (event) {
             event.preventDefault();
 
+            $('.nav-link').parent().removeClass('current');
+            $(event.target).parent().addClass('current');
+
             conf.menu.animateTo(event.target);
         });
     };
@@ -128,7 +131,7 @@
         var $link = $(link),
             href = $link.attr('href'),
             offSetTop = $(href).offset().top;
-        
+
         conf.menu.document.finish().animate({scrollTop : offSetTop}, conf.menu.animationSpeed, function () {
             location.hash = href;
         });
@@ -136,3 +139,9 @@
 
     conf.init();
 }());
+
+$(window).load(function(){
+  var hash = location.hash || '#home';
+
+  $('a[href="' + hash + '"]').click();
+});

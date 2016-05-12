@@ -38,15 +38,15 @@
     <div class="content" id="content">
       <div class="wrapper">
         <%- @content %>
-        <!-- FOOTER -->
-        <footer class="footer">
-          <p align="right">Made with ♥ by <a href="https://github.com/braziljs/conf-boilerplate">Conf Boilerplate</a> :)</p>
-        </footer>
-        <!-- / FOOTER -->
       </div>
+
+      <!-- FOOTER -->
+      <footer class="footer">
+        Made with ♥ by <a target="blank" href="https://github.com/braziljs/conf-boilerplate">Conf Boilerplate</a> :)
+      </footer>
+      <!-- / FOOTER -->
     </div>
     <!-- / CONTENT -->
-
   </div>
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

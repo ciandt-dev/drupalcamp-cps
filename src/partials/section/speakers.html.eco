@@ -1,4 +1,7 @@
-<h2 class="section-title"><%= @labels['speakers'] %></h2>
+<h4 class="section-title">
+  <i class="fi-<%= @icons['speakers'] %>"></i>
+  <%= @labels['speakers'] %>
+</h4>
 
 <ul class="speakers-list">
 <% for speaker in @schedule: %>
