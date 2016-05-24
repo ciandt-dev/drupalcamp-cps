@@ -24,7 +24,7 @@ module.exports = {
     callToAction: {
         text: "Inscreva-se gratuitamente!",
         icon: "arrow-right",
-        link: "http://www.eventick.com.br/drupalcamp-cps"
+        link: "https://docs.google.com/a/ciandt.com/forms/d/1uyaPTsdRki7Sh-vgCoa7yafeaqJcHaePggAr8nLdgQE/edit"
     },
 
     // Site info
