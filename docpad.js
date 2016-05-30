@@ -24,7 +24,7 @@ module.exports = {
     callToAction: {
         text: "Inscreva-se gratuitamente!",
         icon: "arrow-right",
-        link: "http://www.eventick.com.br/drupalcamp-cps"
+        link: "http://goo.gl/forms/nnGu8qQlsBEeUtA23"
     },
 
     // Site info
